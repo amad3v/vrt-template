@@ -1,0 +1,17 @@
+{
+  "bracketSpacing": false,
+  "singleQuote": true,
+  "bracketSameLine": true,
+  "trailingComma": "all",
+  "printWidth": 80,
+  "arrowParens": "avoid",
+  "overrides": [
+    {
+      "files": ["*.js", "*.jsx", "*.ts", "*.tsx"],
+      "options": {
+        "parser": "typescript",
+        "plugins": ["prettier-plugin-organize-imports"]
+      }
+    }
+  ]
+}
